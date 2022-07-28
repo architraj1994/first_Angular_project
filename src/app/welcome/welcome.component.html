@@ -1,0 +1,46 @@
+<div class="back">
+<nav class="navbar navbar-dark bg-danger">
+    <!-- Navbar content -->
+    <div class="container">
+      <ul>
+        <a class="navbar-brand" href="#">NETFLIX</a>
+      </ul>
+    </div>
+
+</nav>
+<!-- <form #Event="ngForm" name="myForm" value="name" (ngSubmit)="myfunc(Event.value)">
+  <div class="col-md-4">
+   
+    <div class="img-responsive">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Movie Name</label>
+      <input type="text" class="form-control" id="Movie Name" ngModel name="moviename" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Browse Image</label>
+        <input type="file" class="form-control-file" name="image" ngModel id="exampleFormControlFile1">
+    </div>
+    <div>
+        <label for="exampleInputEmail1">Cast</label>
+        <input type="text" class="form-control" name="cast" ngModel id="cast" aria-describedby="emailHelp">
+    </div>
+        <label for="exampleInputEmail1">Ratings</label>
+        <input type="text" class="form-control" name="rating" ngModel id="rating" aria-describedby="emailHelp">
+
+    <button type="submit" class="btn btn-danger" >Submit</button>
+    </div>   
+  </div>
+</form>
+</div> -->
+
+<div class="flex-conyatainer">
+    <div class="row">
+   <div id="id" class=".col-md-3" *ngFor="let user of movieList">
+          <img src={{user.imgFile}}>
+          <div>{{user.movie}}</div>
+          <div>{{user.cast}}</div>
+          <div>{{user.rating}}</div>
+    </div>
+  </div>
+</div>

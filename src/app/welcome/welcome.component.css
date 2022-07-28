@@ -1,0 +1,23 @@
+.bb{
+    width: 30%;
+}
+.img-responsive{
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 576px;
+    background-image: url('/assets/netflix.jpg');
+    margin: 0 -120% 0 80%;
+}
+label{
+    color: white;
+}
+
+
+
+ #id{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+    } 
+

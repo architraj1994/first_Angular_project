@@ -1,0 +1,22 @@
+<div class="img-responsive">
+<div class="container">
+<div class="row">
+    <div class="col-md-8">
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
+        </div>
+        <div>
+            <label for="password" id="pass">Password</label>
+            <input type="password" id="width" name="pword" class="form-control" [(ngModel)]="password"/>
+        </div>
+        <div class="error">{{errorMsg}}</div>
+        <div class="btn-container" id="login">
+            <button class="btn btn-dark" id="login1" (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>

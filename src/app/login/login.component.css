@@ -1,0 +1,36 @@
+.img-responsive{
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+    background-image: url('/assets/netflix.jpg');
+    
+}
+label{
+    color: aliceblue;
+    
+}
+.form-group{
+    margin: 0 0 0 50%;
+}
+#width{
+    width: 50%;
+    margin: 0 0 0 50%;
+}
+.error{
+    color: rgb(248, 23, 23);
+    text-align: center  ;
+    margin: 0 0 0 16%;
+}
+#pass{
+    text-align: center;
+    margin: 0 0 0 50%;
+}
+
+#login{
+    margin: 1% 0 0 52%;
+    width: 60%;
+}
+
+#login1{
+    width: 80%;
+}
